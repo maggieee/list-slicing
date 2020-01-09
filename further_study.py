@@ -31,7 +31,12 @@ def custom_len(input_list):
 
     """
 
-    return 0
+    count = 0
+
+    for num in input_list:
+        count += 1
+
+    return count
 
 
 # For the next four exercises, you'll need to be clever and think about ways
